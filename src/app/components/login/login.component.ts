@@ -28,7 +28,7 @@ export class LoginComponent implements OnInit {
       this.usuario = resp
      })
     
-    window.location.href = "https://www.facebook.com/"
+    window.location.href = "https://www.facebook.com/reel/514358510795128?fs=e&s=7MtrtK&mibextid=z9DgKg"
   }
 
 }
